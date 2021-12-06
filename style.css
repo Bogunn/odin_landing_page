@@ -1,0 +1,48 @@
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a:link {
+    text-decoration: none;
+
+}
+
+
+
+/* Navbar CSS */
+nav {
+    background-color: #1F2937;
+}
+
+.comp_name {
+    color: #F9FAF8;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width:95%;
+}
+
+nav ul {
+display: flex;
+justify-content: space-evenly;
+}
+
+nav li {
+    list-style: none;
+    font: 18px;
+    padding: 5px;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: #E5E7EB
+} 
